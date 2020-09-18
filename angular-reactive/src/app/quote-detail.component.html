@@ -1,0 +1,7 @@
+<h2>Movie Details</h2>
+<div *ngIf="quote">
+  <blockquote>
+    <p>{{quote.plot}}</p>
+    <footer>{{quote.movie}} (Movie identifier: {{quote.movieId}})</footer>
+  </blockquote>
+</div>
